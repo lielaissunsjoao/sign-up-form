@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'nordicFont';
+    src: url('/assets/Norse-Bold.otf');
+}
+
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2e0;
+}
+
+#backgroundImage{
+    height: 100%;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 700px;
+}
+
+#titleBackground{
+    width: 100%;
+    margin-top: 117px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    height: 150px;
+}
+
+#title{
+    color: white;
+    font-size: 100px;
+    font-family: nordicFont, sans-serif;
+}
+
+#pageContent{
+    width: 1300px;
+    height: 100%;
+}
+
+#titleBackground{
+    height: 150px;
+}
+
+#footer{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin-left: 20px;
+    gap: 30px;
+}
+
+#signUpForm{
+    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+}
+
+p{
+    font-size: 30px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 60px;
+    gap: 30px;
+}
+
+#upText{
+    margin-right: 360px;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+}
+
+#downText{
+    margin-bottom: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+}
+
+#submitButton{
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #596D48;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#logIn{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#bigOne{
+    display: flex;
+    gap: 100px;
+}
+
+legend{
+    display: flex;
+    width: 200px;
+    font-size: 25px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: #32353b;
+}
+
+#leftSideInputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    color: #3e424bc0;
+    gap: 10px;
+}
+
+#rightSideInputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    color: #3e424bc0;
+    gap: 10px;
+}
+
+label{
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+}
